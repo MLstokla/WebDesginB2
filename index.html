@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="De opdrachten zijn opgebouwd rond een website over films. In de
+  opeenvolgende opdrachten bouw je steeds verder aan het uiteindelijke resultaat: een website
+  waarop je een overzicht en detailinformatie over films kunt opvragen, en waarbij je
+  informatie over nieuwe films kunt invoeren.">
+	<title>Web Design Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="loading">
+	<div class="navbar">
+		<div class="navigation-wrap bg-light start-header start-style">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-md navbar-light">
+							<div class="d-flex">
+								<h1 class="font-weight-bold mr-2 px-3" style="color:white; background-color:#957bda"> E4
+								</h1>
+								<h1 style="color: #957bda">Max Stokla</h1>
+							</div>
+
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ml-auto py-4 py-md-0">
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link" href="index.html">Home</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link" href="aboutme.html">About me</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link" href="form.html">Form</a>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+											role="button" aria-haspopup="true" aria-expanded="false">Movie Details</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="CATCH.html">Catch me if you can!</a>
+											<a class="dropdown-item" href="DJUN.html">Django Unchained</a>
+										</div>
+									</li>
+									<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+										<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+											role="button" aria-haspopup="true" aria-expanded="false">Actor Details</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="Leo.html">Leonardo DiCaprio</a>
+											<a class="dropdown-item" href="Tom.html">Tom Hanks</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="py-5 text-white">
+		<div class="container py-4">
+			<div class="row">
+			</div>
+			<div class="row pt-5">
+				<div class="col-lg-10 mx-auto"> </div>
+			</div>
+		</div>
+	</section>
+	<main>
+		<div class="slideshow">
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(img/1.jpg);"></div>
+					<div class="slide__img-reveal"></div>
+				</div>
+				<span class="slide__number">Movie #01</span>
+				<h3 class="slide__title">Catch me <br>if you can!</h3>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(img/DU.webp);"></div>
+					<div class="slide__img-reveal"></div>
+				</div>
+				<span class="slide__number">Movie #02</span>
+				<h3 class="slide__title">Django <br> Unchained</h3>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(img/FB.webp);"></div>
+					<div class="slide__img-reveal"></div>
+				</div>
+				<span class="slide__number">Movie #03</span>
+				<h3 class="slide__title">Fantastic <br> Beasts</h3>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(img/G.jpg);"></div>
+					<div class="slide__img-reveal"></div>
+				</div>
+				<span class="slide__number">Movie #04</span>
+				<h3 class="slide__title">Gladiator</h3>
+			</div>
+			<div class="slide">
+				<div class="slide__img-wrap">
+					<div class="slide__img" style="background-image: url(img/P.jpg);"></div>
+					<div class="slide__img-reveal"></div>
+				</div>
+				<span class="slide__number">Movie #05</span>
+				<h3 class="slide__title">papillon</h3>
+			</div>
+			<nav class="slidenav">
+				<button class="slidenav__item slidenav__item--prev">Previous</button>
+				<button class="slidenav__item slidenav__item--next">Next</button>
+			</nav>
+		</div>
+	</main>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<div id="imaginary_container">
+					<div class="input-group stylish-input-group">
+						<input type="text" class="form-control" id="inputSearch" placeholder="Search for a movie:">
+						<span class="input-group-addon">
+							<button type="submit" id="btnSearch" onclick="search()">
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" id=frontpage-movies>
+		<div class="col-md-4">
+			<div class="movie_card" id="bright">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/CM4.jpg" alt="catch"/>
+
+						<div class="card-title">
+							<h1>Catch me if you can!</h1>
+						</div>
+						<h4>2002, Steven Speilberg</h4>
+						<span class="minutes">2h 21min</span>
+						<p class="type">Biography, Crime, Drama</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI
+							agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.
+						</p>
+					</div>
+					<div class="movie_social">
+						<ul>
+							<li><a href="CATCH.html"><i class="material-icons">More info?</i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="blur_back CM_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="du">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/DU4.jpg" alt="djan"/>
+						<div class="card-title">
+							<h1>Django Unchained</h1>
+						</div>
+						<h4>2012, Quentin Tarantino</h4>
+						<span class="minutes">2h 45min</span>
+						<p class="type">Drama, Western</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a
+							brutal plantation-owner in Mississippi.
+						</p>
+					</div>
+					<div class="movie_social">
+						<ul>
+							<li><a href="DJUN.html"><i class="material-icons">More info?</i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="blur_back du_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="fbeasts">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/FB.jpg" alt="glad"/>
+						<div class="card-title">
+							<h1>Fantastic Beasts</h1>
+						</div>
+						<h4>2016, David Yates</h4>
+						<span class="minutes">2h 12min</span>
+						<p class="type">Drama, Western</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							The adventures of writer Newt Scamander in New York's secret community of witches and
+							wizards seventy years before Harry Potter reads his book in school.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back fbeasts_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="gl">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/glad.jpg" alt="glad"/>
+						<div class="card-title">
+							<h1>Gladiator</h1>
+						</div>
+						<h4>2000, Ridley Scott</h4>
+						<span class="minutes">2h 35min</span>
+						<p class="type">Action, Adventure, Drama</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							Maximus is a powerful Roman general, loved by the people and the aging Emperor, Marcus
+							Aurelius. Before his death, the Emperor chooses Maximus to be his heir over his own son,
+							Commodus, and a power struggle leaves Maximus and his family condemned to death. The
+							powerful general is unable to save his family, and his loss of will allows him to get
+							captured and put into the Gladiator games until he dies. The only desire that fuels him now
+							is the chance to rise to the top so that he will be able to look into the eyes of the man
+							who will feel his revenge.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back gl_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="pa">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/pap.jpg" alt="pap"/>
+						<div class="card-title">
+							<h1>papillon</h1>
+						</div>
+						<h4>2017, Micheal Noer</h4>
+						<span class="minutes">2h 13min</span>
+						<p class="type">Adventure, Biography, Crime, Drama</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							Wrongfully convicted for murder, Henri Charriere forms an unlikely relationship with fellow
+							inmate and quirky convicted counterfeiter Louis Dega, in an attempt to escape from the
+							notorious penal colony on Devil's Island.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back pa_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="pi">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/pia.jpg" alt="pia"/>
+						<div class="card-title">
+							<h1>The Pianist</h1>
+						</div>
+						<h4>2002, Roman Polanski</h4>
+						<span class="minutes">2h 30min</span>
+						<p class="type">Biography, Drama, Music, War</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							In this adaptation of the autobiography "The Pianist: The Extraordinary True Story of One
+							Man's Survival in Warsaw, 1939-1945," Wladyslaw Szpilman, a Polish Jewish radio station
+							pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the
+							Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this
+							time until the concentration camp prisoners are released, Szpilman hides in various
+							locations among the ruins of Warsaw.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back pi_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="ku">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/kung.jpg"  alt="kung"/>
+						<div class="card-title">
+							<h1>Kung Fu Panda</h1>
+						</div>
+						<h4>2008, Mark Osborne & John Stevenson</h4>
+						<span class="minutes">1h 32min</span>
+						<p class="type">Animation, Action, Adventure, Comedy, Fantasy</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							To everyone's surprise, including his own, Po, an overweight, clumsy panda, is chosen as
+							protector of the Valley of Peace. His suitability will soon be tested as the valley's
+							arch-enemy is on his way.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back ku_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="no">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/time.jpg" alt="time" />
+						<div class="card-title">
+							<h1>No Time To Die</h1>
+						</div>
+						<h4>2021, Cary Joji Fukunaga</h4>
+						<span class="minutes">2h 43min</span>
+						<p class="type">Action, Adventure, Thriller</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							James Bond has left active service. His peace is short-lived when Felix Leiter, an old
+							friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious
+							villain armed with dangerous new technology.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back no_back"></div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="movie_card" id="co">
+				<div class="info_section">
+					<div class="movie_header">
+						<img class="locandina" src="img/Courier.jpg"  alt="courier"/>
+						<div class="card-title">
+							<h1>The Courier</h1>
+						</div>
+						<h4>2020, Dominic Cooke</h4>
+						<span class="minutes">1h 52min</span>
+						<p class="type">Drama, History, Thriller, War</p>
+					</div>
+					<div class="movie_desc">
+						<p class="text">
+							In the shadow of the Cold War a letter from Oleg Penkovsky (Merab Ninidze) an agency of the
+							Soviet Union received by MI6 stating the concern of Penkovsky about world safety and his
+							anxiety about a nuclear war, So Emily Donovan (Rachel Brosnahan) a CIA Agent reached out to
+							MI6 Agent Dickie Franks (Angus Wright) , who recruited British salesman Greville Wynne
+							(Benedict Cumberbatch) to be their spy.
+						</p>
+					</div>
+				</div>
+				<div class="blur_back co_back"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="footer">
+		<div class="footer bg-white mx-5">
+			<div class="row mb-4">
+				<div class="col-md-4 col-sm-4 col-xs-4">
+					<div class="footer-text pull-left">
+						<div class="d-flex">
+							<h1 class="font-weight-bold mr-2 px-3" style="color:white; background-color:#957bda"> E4
+							</h1>
+							<h1 style="color: #957bda">Max Stokla</h1>
+						</div>
+						<p class="footer-text">De opdrachten zijn opgebouwd rond een website over films. In de
+							opeenvolgende opdrachten bouw je steeds verder aan het uiteindelijke resultaat: een website
+							waarop je een overzicht en detailinformatie over films kunt opvragen, en waarbij je
+							informatie over nieuwe films kunt invoeren.</p>
+						<div class="social mt-2 mb-3"> <i class="fa fa-facebook-official fa-lg"></i> <i
+								class="fa fa-instagram fa-lg"></i> <i class="fa fa-twitter fa-lg"></i> <i
+								class="fa fa-linkedin-square fa-lg"></i> <i class="fa fa-facebook"></i> </div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<h5 class="heading">Main</h5>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutme.html">About me</a></li>
+						<li><a href="form.html">Form</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h5 class="heading">Movies</h5>
+					<ul class="footer-text">
+						<li><a href="CATCH.html">Catch me if you can!</a></li>
+						<li><a href="DJUN.html">Django Unchained</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<h5 class="heading">Actors</h5>
+					<ul class="footer-text">
+						<li><a href="Leo.html">Leonardo DiCaprio</a></li>
+						<li><a href="Tom.html">Tom Hanks</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="divider mb-4"> </div>
+			<div class="row" style="font-size:10px;">
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="pull-left">
+						<p><i class="fa fa-copyright"></i> Web Design Bootstrap</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="pull-right mr-4 d-flex policy">
+						<div>Terms of Use</div>
+						<div>Privacy Policy</div>
+						<div>Cookie Policy</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
